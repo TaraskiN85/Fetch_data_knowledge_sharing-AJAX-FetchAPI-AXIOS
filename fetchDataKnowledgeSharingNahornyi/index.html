@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knowledge Sharing</title>
+  <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fetching Data from Server</h1>
+      <a href='https://jsonplaceholder.typicode.com'><h3>https://jsonplaceholder.typicode.com</h3></a>
+    </header>
+    <main>
+      <div class="articles-container">
+        <article id="ajax-data" class="article-subcontainer">
+          <div>
+            <h2>AJAX</h2>
+          </div>
+          <div class="user-container">
+            <div class="input-container">
+              <label for="ajaxName" class="label">Name: </label>
+              <span id="ajaxName"></span>
+            </div>
+            <div class="input-container">
+              <label for="ajaxEmail" class="label">Email: </label>
+              <span id="ajaxEmail"></span>
+            </div>
+            <div class="input-container">
+              <label for="ajaxPhone" class="label">Phone number: </label>
+              <span id="ajaxPhone"></span>
+            </div>
+            <div class="input-container">
+              <label for="ajaxAddress" class="label">Address: </label>
+              <span id="ajaxAddress"></span>
+            </div>
+          </div>
+          <div class="fetch-command">
+            <button id="makeAjax">Get data with AJAX</button>
+          </div>
+        </article>
+        <article id="ajax-data" class="article-subcontainer">
+          <div>
+            <h2>Fetch API</h2>
+          </div>
+          <div class="user-container">
+            <div class="input-container">
+              <label for="fetchName" class="label">Name: </label>
+              <span id="fetchName"></span>
+            </div>
+            <div class="input-container">
+              <label for="fetchEmail" class="label">Email: </label>
+              <span id="fetchEmail"></span>
+            </div>
+            <div class="input-container">
+              <label for="fetchPhone" class="label">Phone number: </label>
+              <span id="fetchPhone"></span>
+            </div>
+            <div class="input-container">
+              <label for="fetchAddress" class="label">Address: </label>
+              <span id="fetchAddress"></span>
+            </div>
+          </div>
+          <div class="fetch-command">
+            <button id="makeFetch">Get data with fetch API</button>
+          </div>
+        </article>
+                <article id="ajax-data" class="article-subcontainer">
+          <div>
+            <h2>AXIOS</h2>
+          </div>
+          <div class="user-container">
+            <div class="input-container">
+              <label for="axiosName" class="label">Name: </label>
+              <span id="axiosName"></span>
+            </div>
+            <div class="input-container">
+              <label for="axiosEmail" class="label">Email: </label>
+              <span id="axiosEmail"></span>
+            </div>
+            <div class="input-container">
+              <label for="axiosPhone" class="label">Phone number: </label>
+              <span id="axiosPhone"></span>
+            </div>
+            <div class="input-container">
+              <label for="axiosAddress" class="label">Address: </label>
+              <span id="axiosAddress"></span>
+            </div>
+          </div>
+          <div class="fetch-command">
+            <button id="makeAxios">Get data with Axios</button>
+          </div>
+        </article>
+      </div>
+      <p>by Taras Nahornyi</p>
+    </main>
+    <script src="./index.js"></script>
+    <!-- adding AXIOS!! -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
